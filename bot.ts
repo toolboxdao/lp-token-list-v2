@@ -79,7 +79,7 @@ const getTokenMetadataFromChain = async (
 const run = async () => {
   const poolsData = await (
     await fetch(
-      "https://raw.githubusercontent.com/saberdao/saber-registry-dist/master/data/pools-info.mainnet.json"
+      "https://raw.githubusercontent.com/toolboxdao/saber-registry-dist/master/data/pools-info.mainnet.json"
     )
   ).json();
   const pools = poolsData.pools;
